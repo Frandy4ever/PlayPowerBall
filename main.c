@@ -2,21 +2,7 @@
  * Author: Frandy Slueue
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-#define NUM_WHITE_BALLS 69
-#define NUM_POWER_BALLS 26
-#define TICKET_PRICE 2
-
-void print_winning_numbers(int white_balls[5], int power_ball) {
-    printf("Winning numbers: ");
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", white_balls[i]);
-    }
-    printf("Powerball: %d\n", power_ball);
-}
+#include "myPowerBall.h"
 
 int main(void) {
     int winning_white_balls[5];
